@@ -7,7 +7,7 @@ namespace ExceptionHandling
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Typing data:");
+            Console.WriteLine("Typing data 6 strings:");
             StringBuilder resultString = new StringBuilder();
 
             for (int i = 0; i<6;i++)
@@ -24,7 +24,7 @@ namespace ExceptionHandling
                 }
             }
 
-            Console.WriteLine(resultString);
+            Console.WriteLine($"Result string: {resultString}");
         }
     }
 }
